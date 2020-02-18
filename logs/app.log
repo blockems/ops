@@ -1,0 +1,43 @@
+Tue, 18 Feb 2020 06:08:57 GMT | INFO | app.log | Recieved a request on test | data:{} | log_data:{} | 
+Tue, 18 Feb 2020 06:08:57 GMT | ERROR | app.log | No reference data store variable specified | log_data:{} | 
+Tue, 18 Feb 2020 06:08:57 GMT | ERROR | app.log | Return error response | data:{"sucess":false} | log_data:{} | 
+{Tue, 18 Feb 2020 06:11:50 GMT | INFO | app.log | Recieved a request on /test | data:{} } log_data:{} | 
+{Tue, 18 Feb 2020 06:11:50 GMT | ERROR | app.log | No reference data store variable specified | log_data:{} | 
+{Tue, 18 Feb 2020 06:11:50 GMT | ERROR | app.log | Return error response | data:{"sucess":false} } log_data:{} | 
+{'Tue, 18 Feb 2020 06:14:28 GMT','INFO',','message':{'Recieved a request on /test}}data:{} } log_data:{} | 
+{'Tue, 18 Feb 2020 06:14:28 GMT','ERROR',','message':{'No reference data store variable specified}}log_data:{} | 
+{'Tue, 18 Feb 2020 06:14:28 GMT','ERROR',','message':{'Return error response}}data:{"sucess":false} } log_data:{} | 
+{'Tue, 18 Feb 2020 06:16:30 GMT','INFO','Recieved a request on /test'}data:{} } log_data:{} | 
+{'Tue, 18 Feb 2020 06:16:30 GMT','ERROR','No reference data store variable specified'}log_data:{} | 
+{'Tue, 18 Feb 2020 06:16:30 GMT','ERROR','Return error response'}data:{"sucess":false} } log_data:{} | 
+{'Tue, 18 Feb 2020 06:19:34 GMT','INFO','message'={'Recieved a request on /test',data:{}}log_data:{}}
+{'Tue, 18 Feb 2020 06:19:34 GMT','ERROR','message'={'No reference data store variable specified',log_data:{}}
+{'Tue, 18 Feb 2020 06:19:34 GMT','ERROR','message'={'Return error response',data:{"sucess":false}}log_data:{}}
+{'Tue, 18 Feb 2020 06:20:40 GMT','INFO','Recieved a request on /test',data:{}}log_data:{}}
+{'Tue, 18 Feb 2020 06:20:40 GMT','ERROR','No reference data store variable specified',log_data:{}}
+{'Tue, 18 Feb 2020 06:20:40 GMT','ERROR','Return error response',data:{"sucess":false}}log_data:{}}
+{'Tue, 18 Feb 2020 06:25:53 GMT','INFO','Recieved a request on /test',data:{},log_data:{}}
+{'Tue, 18 Feb 2020 06:25:53 GMT','ERROR','No reference data store variable specified',log_data:{}}
+{'Tue, 18 Feb 2020 06:25:53 GMT','ERROR','Return error response',data:{"sucess":false},log_data:{}}
+{'Tue, 18 Feb 2020 06:28:34 GMT','INFO','Recieved a request on /test',data:{},log_data:{}}
+{'Tue, 18 Feb 2020 06:28:34 GMT','ERROR','No reference data store variable specified',log_data:{}}
+{'Tue, 18 Feb 2020 06:28:34 GMT','ERROR','Return error response',data:{"sucess":false},log_data:{}}
+{'Tue, 18 Feb 2020 06:29:40 GMT','INFO','Recieved a request on /test',data:{},log_data:{}}
+{'Tue, 18 Feb 2020 06:29:40 GMT','ERROR','No reference data store variable specified',log_data:{}}
+{'Tue, 18 Feb 2020 06:29:40 GMT','ERROR','Return error response',data:{"sucess":false},log_data:{}}
+{'Tue, 18 Feb 2020 06:30:40 GMT','INFO','Recieved a request on /test',data:{},log_data:{}}
+{'Tue, 18 Feb 2020 06:30:40 GMT','ERROR','No reference data store variable specified',log_data:{}}
+{'Tue, 18 Feb 2020 06:30:40 GMT','ERROR','Return error response',data:{"sucess":false},log_data:{}}
+{'Tue, 18 Feb 2020 06:30:52 GMT','INFO','Recieved a request on /test',data:{},log_data:{}}
+{'Tue, 18 Feb 2020 06:30:52 GMT','ERROR','No reference data store variable specified',log_data:{}}
+{'Tue, 18 Feb 2020 06:30:52 GMT','ERROR','Return error response',data:{"sucess":false},log_data:{}}
+{'Tue, 18 Feb 2020 06:31:44 GMT','INFO','Recieved a request on /test',data:{},log_data:{}}
+{'Tue, 18 Feb 2020 06:31:44 GMT','ERROR','No reference data store variable specified',log_data:{}}
+{'Tue, 18 Feb 2020 06:31:44 GMT','ERROR','Return error response',data:{"sucess":false},log_data:{}}
+{'Tue, 18 Feb 2020 06:36:12 GMT','INFO','Recieved a request on /test',data:{"refdata":"ccf"},log_data:{"refdata":"ccf"}}
+{'Tue, 18 Feb 2020 06:36:12 GMT','INFO','Return sucess response',data:{"sucess":true},log_data:{"refdata":"ccf"}}
+{'Tue, 18 Feb 2020 06:37:41 GMT','INFO','Recieved a request on /test',data:{},log_data:{}}
+{'Tue, 18 Feb 2020 06:37:41 GMT','ERROR','No reference data store variable specified',log_data:{}}
+{'Tue, 18 Feb 2020 06:37:41 GMT','ERROR','Return error response',data:{"sucess":false},log_data:{}}
+{'Tue, 18 Feb 2020 06:38:16 GMT','INFO','Recieved a request on /test',data:{"refdata":"ccf"},log_data:{"refdata":"ccf"}}
+{'Tue, 18 Feb 2020 06:38:16 GMT','INFO','Return sucess response',data:{"sucess":true},log_data:{"refdata":"ccf"}}
