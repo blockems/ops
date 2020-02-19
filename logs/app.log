@@ -45,3 +45,62 @@ Tue, 18 Feb 2020 06:08:57 GMT | ERROR | app.log | Return error response | data:{
 {'Wed, 19 Feb 2020 02:45:44 GMT','INFO','Return sucess response',data:{"sucess":true},log_data:{"refdata":"ccf"}}
 {'Wed, 19 Feb 2020 03:44:45 GMT','INFO','Recieved a request on /test',data:{"refdata":"ccf"},log_data:{"refdata":"ccf"}}
 {'Wed, 19 Feb 2020 03:44:45 GMT','INFO','Return sucess response',data:{"sucess":true},log_data:{"refdata":"ccf"}}
+{'Wed, 19 Feb 2020 04:51:35 GMT','INFO','Using the following environment variables: serverPort= 3001, debugLevel= 2, environment=dev, Resource Manager=localhost:1337',
+{'Wed, 19 Feb 2020 04:51:49 GMT','INFO','Recieved a request on /test',data:{"refdata":"ccf"},log_data:{"refdata":"ccf"}}
+{'Wed, 19 Feb 2020 04:51:49 GMT','INFO','Return sucess response',data:{"sucess":true},log_data:{"refdata":"ccf"}}
+|Wed, 19 Feb 2020 04:54:32 GMT|INFO|Using the following environment variables: serverPort= 3001, debugLevel= 2, environment=dev, Resource Manager=localhost:1337|
+|Wed, 19 Feb 2020 04:55:09 GMT|INFO|Recieved a request on /test|data:{"refdata":"ccf"}|log_data:{"refdata":"ccf"}}
+|Wed, 19 Feb 2020 04:55:09 GMT|INFO|Return sucess response|data:{"sucess":true}|log_data:{"refdata":"ccf"}}
+|Wed, 19 Feb 2020 04:55:54 GMT|INFO|Using the following environment variables: serverPort= 3001, debugLevel= 2, environment=dev, Resource Manager=localhost:1337|
+|Wed, 19 Feb 2020 04:57:03 GMT|INFO|Using the following environment variables: serverPort= 3001, debugLevel= 2, environment=dev, Resource Manager=localhost:1337|
+|Wed, 19 Feb 2020 04:57:03 GMT|INFO|server listening on port:3001|
+|Wed, 19 Feb 2020 05:10:02 GMT|INFO|Application started using the following environment variables: serverPort= 3001, debugLevel= 2, environment=dev, Resource Manager=localhost:1337|
+|Wed, 19 Feb 2020 05:10:02 GMT|INFO|Server listening on port:3001|
+|Wed, 19 Feb 2020 05:17:09 GMT|INFO|Application started using the following environment variables: serverPort= 3001, debugLevel= 2, environment=dev, Resource Manager=localhost:1337|
+|Wed, 19 Feb 2020 05:17:09 GMT|INFO|Server listening on port:3001|
+|Wed, 19 Feb 2020 05:18:04 GMT|INFO|Application started using the following environment variables: serverPort= 3001, debugLevel= 2, environment=dev, Resource Manager=localhost:1337|
+|Wed, 19 Feb 2020 05:18:04 GMT|INFO|Server listening on port:3001|
+|Wed, 19 Feb 2020 05:31:26 GMT|INFO|Application started using the following environment variables: serverPort= 3001, debugLevel= 2, environment=dev, Resource Manager=localhost:1337|
+|Wed, 19 Feb 2020 05:31:26 GMT|INFO|Server listening on port:3001|
+|Wed, 19 Feb 2020 05:31:29 GMT|INFO|Recieved a request on /test|data:{"refdata":"ccf"}|log_data:{"refdata":"ccf"}
+|Wed, 19 Feb 2020 05:31:29 GMT|INFO|Recieved a request on /test|data:{"refdata":"ccf"}|log_data:{"refdata":"ccf"}
+|Wed, 19 Feb 2020 05:31:29 GMT|INFO|Return sucess response|data:{"sucess":true}|log_data:{"refdata":"ccf"}
+|Wed, 19 Feb 2020 05:32:25 GMT|INFO|Application started using the following environment variables: serverPort= 3001, debugLevel= 2, environment=dev, Resource Manager=localhost:1337|
+|Wed, 19 Feb 2020 05:32:25 GMT|INFO|Server listening on port:3001|
+|Wed, 19 Feb 2020 05:32:36 GMT|INFO|Recieved a request on /test|data:{"refdata":"ccf"}|log_data:{"refdata":"ccf"}
+|Wed, 19 Feb 2020 05:32:36 GMT|INFO|Recieved a request on /test|data:{"refdata":"ccf"}|log_data:{"refdata":"ccf"}
+|Wed, 19 Feb 2020 05:32:36 GMT|INFO|Return sucess response|data:{"sucess":true}|log_data:{"refdata":"ccf"}
+|Wed, 19 Feb 2020 05:43:13 GMT|INFO|Application started using the following environment variables: serverPort= 3001, debugLevel= 2, environment=dev, Resource Manager=localhost:1337|
+|Wed, 19 Feb 2020 05:43:13 GMT|INFO|Added the test page for refdata|
+|Wed, 19 Feb 2020 05:43:13 GMT|INFO|Server listening on port:3001|
+|Wed, 19 Feb 2020 05:43:17 GMT|INFO|Recieved a request on /test|data:{"refdata":"ccf"}|log_data:{"refdata":"ccf"}
+|Wed, 19 Feb 2020 05:43:17 GMT|INFO|Return sucess response|data:{"sucess":true}|log_data:{"refdata":"ccf"}
+|Wed, 19 Feb 2020 05:52:57 GMT|INFO|Application started using the following environment variables: serverPort= 3001, debugLevel= 2, environment=dev, Resource Manager=localhost:1337|
+|Wed, 19 Feb 2020 05:52:57 GMT|INFO|Added the test page for refdata|
+|Wed, 19 Feb 2020 05:52:57 GMT|INFO|Server listening on port:3001|
+|Wed, 19 Feb 2020 05:52:59 GMT|INFO|Recieved a request on |data:{"refdata":"ccf"}|log_data:{"refdata":"ccf"}
+|Wed, 19 Feb 2020 05:52:59 GMT|INFO|Return sucess response|data:{"sucess":true}|log_data:{"refdata":"ccf"}
+|Wed, 19 Feb 2020 05:54:48 GMT|INFO|*NODE API APPLICATION STARTED*|
+|Wed, 19 Feb 2020 05:54:48 GMT|INFO|Using the following environment variables: serverPort= 3001, debugLevel= 2, environment=dev, Resource Manager=localhost:1337|
+|Wed, 19 Feb 2020 05:54:48 GMT|INFO|Added the test page for refdata|
+|Wed, 19 Feb 2020 05:54:48 GMT|INFO|Server listening on port:3001|
+|Wed, 19 Feb 2020 05:54:51 GMT|INFO|Recieved a request on |data:{"refdata":"ccf"}|log_data:{"refdata":"ccf"}
+|Wed, 19 Feb 2020 05:54:51 GMT|INFO|Return sucess response|data:{"sucess":true}|log_data:{"refdata":"ccf"}
+|Wed, 19 Feb 2020 05:55:39 GMT|INFO|--NEW INSTANCE OF NODE API APPLICATION STARTED--|
+|Wed, 19 Feb 2020 05:55:39 GMT|INFO|Using the following environment variables: serverPort= 3001, debugLevel= 2, environment=dev, Resource Manager=localhost:1337|
+|Wed, 19 Feb 2020 05:55:39 GMT|INFO|Added the test page for refdata|
+|Wed, 19 Feb 2020 05:55:39 GMT|INFO|Server listening on port:3001|
+|Wed, 19 Feb 2020 05:55:42 GMT|INFO|Recieved a request on |data:{"refdata":"ccf"}|log_data:{"refdata":"ccf"}
+|Wed, 19 Feb 2020 05:55:42 GMT|INFO|Return sucess response|data:{"sucess":true}|log_data:{"refdata":"ccf"}
+|Wed, 19 Feb 2020 06:10:08 GMT|INFO|--NEW INSTANCE OF NODE API APPLICATION STARTED--|
+|Wed, 19 Feb 2020 06:10:08 GMT|INFO|Using the following environment variables: serverPort= 3001, debugLevel= 2, environment=dev, Resource Manager=localhost:1337|
+|Wed, 19 Feb 2020 06:10:08 GMT|INFO|Added the test page for refdata|
+|Wed, 19 Feb 2020 06:10:08 GMT|INFO|Server listening on port:3001|
+|Wed, 19 Feb 2020 06:10:13 GMT|INFO|Recieved a request on |data:{"refdata":"ccf"}|log_data:{"refdata":"ccf"}
+|Wed, 19 Feb 2020 06:10:13 GMT|INFO|Return sucess response|data:{"sucess":true}|log_data:{"refdata":"ccf"}
+|Wed, 19 Feb 2020 06:17:05 GMT|INFO|--NEW INSTANCE OF NODE API APPLICATION STARTED--|
+|Wed, 19 Feb 2020 06:17:05 GMT|INFO|Using the following environment variables: serverPort= 3001, debugLevel= 2, environment=dev, Resource Manager=localhost:1337|
+|Wed, 19 Feb 2020 06:17:05 GMT|INFO|Added the test page for refdata|
+|Wed, 19 Feb 2020 06:17:05 GMT|INFO|Server listening on port:3001|
+|Wed, 19 Feb 2020 06:17:08 GMT|INFO|Recieved a request on |data:{"refdata":"ccf"}|log_data:{"refdata":"ccf"}
+|Wed, 19 Feb 2020 06:17:08 GMT|INFO|Return sucess response|data:{"sucess":true}|log_data:{"refdata":"ccf"}
