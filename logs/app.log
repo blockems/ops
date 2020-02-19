@@ -41,3 +41,7 @@ Tue, 18 Feb 2020 06:08:57 GMT | ERROR | app.log | Return error response | data:{
 {'Tue, 18 Feb 2020 06:37:41 GMT','ERROR','Return error response',data:{"sucess":false},log_data:{}}
 {'Tue, 18 Feb 2020 06:38:16 GMT','INFO','Recieved a request on /test',data:{"refdata":"ccf"},log_data:{"refdata":"ccf"}}
 {'Tue, 18 Feb 2020 06:38:16 GMT','INFO','Return sucess response',data:{"sucess":true},log_data:{"refdata":"ccf"}}
+{'Wed, 19 Feb 2020 02:45:44 GMT','INFO','Recieved a request on /test',data:{"refdata":"ccf"},log_data:{"refdata":"ccf"}}
+{'Wed, 19 Feb 2020 02:45:44 GMT','INFO','Return sucess response',data:{"sucess":true},log_data:{"refdata":"ccf"}}
+{'Wed, 19 Feb 2020 03:44:45 GMT','INFO','Recieved a request on /test',data:{"refdata":"ccf"},log_data:{"refdata":"ccf"}}
+{'Wed, 19 Feb 2020 03:44:45 GMT','INFO','Return sucess response',data:{"sucess":true},log_data:{"refdata":"ccf"}}
