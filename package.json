@@ -21,11 +21,13 @@
     "bcryptjs": "^2.4.3",
     "body-parser": "^1.19.0",
     "cors": "^2.8.5",
+    "dataframe-js": "^1.4.3",
     "ejs": "^3.0.1",
+    "eslint": "^6.8.0",
+    "expres": "0.0.5",
     "express": "^4.17.1",
     "helmet": "^3.21.2",
     "kafka-node": "^5.0.0",
-    "mongodb-memory-server": "^6.2.4",
     "morgan": "^1.9.1",
     "winston": "^3.2.1"
   }

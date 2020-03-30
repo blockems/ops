@@ -1,3 +1,7 @@
+/* Threading and such */
+const {cpus} = require('os');
+const num_workers = cpus().length;
+
 /* WEB SERVER SET UP */
 const express = require('express');
 const app = express();
@@ -8,6 +12,13 @@ const app = express();
 const bodyParser = require('body-parser');
 app.use(bodyParser.json());
 
+// Make it use ejs
+app.set('viw engine', 'ejs');
+
+//now give it a statis directory for assetts
+app.use(express.static(process.cwd() + '/public'));
+
+//
 
 /* SECURITY MODULES */
 // Cors
@@ -28,7 +39,8 @@ app.use(helmet());
 // Change formats in the logging class
 const Logger = require('./services/logger_service');
 const logger = new Logger('app');
-logger.info('--NEW INSTANCE OF NODE API APPLICATION STARTED--');  
+logger.info('--NEW INSTANCE OF NODE API APPLICATION STARTED--');
+logger.info(`--Running on ${num_workers} cpu's--`);  
 
 /* ENVIRONMENT VARIABLES
     We use the following:
