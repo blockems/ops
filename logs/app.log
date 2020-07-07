@@ -7,3 +7,8 @@
 |Sat, 28 Mar 2020 06:04:07 GMT|INFO|Using the following environment variables: serverPort= 3001, debugLevel= 2, environment=dev, Resource Manager=localhost:1337|
 |Sat, 28 Mar 2020 06:04:07 GMT|INFO|Added the test page for refdata|
 |Sat, 28 Mar 2020 06:04:07 GMT|INFO|Server listening on port:3001|
+|Wed, 01 Apr 2020 01:01:46 GMT|INFO|--NEW INSTANCE OF NODE API APPLICATION STARTED--|
+|Wed, 01 Apr 2020 01:01:46 GMT|INFO|--Running on 12 cpu's--|
+|Wed, 01 Apr 2020 01:01:46 GMT|INFO|Using the following environment variables: serverPort= 3001, debugLevel= 2, environment=dev, Resource Manager=localhost:1337|
+|Wed, 01 Apr 2020 01:01:46 GMT|INFO|Added the test page for refdata|
+|Wed, 01 Apr 2020 01:01:46 GMT|INFO|Server listening on port:3001|
