@@ -352,3 +352,33 @@
     router.handle(req, res, next);
   } --|
 |Fri, 24 Jul 2020 08:19:49 GMT|INFO|Server listening on port:3001|
+|Sun, 26 Jul 2020 02:54:15 GMT|INFO|--NEW INSTANCE OF NODE API APPLICATION STARTED--|
+|Sun, 26 Jul 2020 02:54:15 GMT|INFO|--Running on 12 cpu's--|
+|Sun, 26 Jul 2020 02:54:15 GMT|INFO|--Web server @ localhost:3001 --|
+|Sun, 26 Jul 2020 02:54:15 GMT|INFO|--Applying debug level 2|
+|Sun, 26 Jul 2020 02:54:15 GMT|INFO|--Using environment dev--|
+|Sun, 26 Jul 2020 02:54:15 GMT|INFO|--Refering to BFF Server @ localhost:1337 --|
+|Sun, 26 Jul 2020 02:54:15 GMT|INFO|--Using routing files function router(req, res, next) {
+    router.handle(req, res, next);
+  } --|
+|Sun, 26 Jul 2020 02:54:15 GMT|INFO|Server listening on port:3001|
+|Sun, 26 Jul 2020 03:02:53 GMT|INFO|--NEW INSTANCE OF NODE API APPLICATION STARTED--|
+|Sun, 26 Jul 2020 03:02:53 GMT|INFO|--Running on 12 cpu's--|
+|Sun, 26 Jul 2020 03:02:53 GMT|INFO|--Web server @ localhost:3001 --|
+|Sun, 26 Jul 2020 03:02:53 GMT|INFO|--Applying debug level 2|
+|Sun, 26 Jul 2020 03:02:53 GMT|INFO|--Using environment dev--|
+|Sun, 26 Jul 2020 03:02:53 GMT|INFO|--Refering to BFF Server @ localhost:1337 --|
+|Sun, 26 Jul 2020 03:02:53 GMT|INFO|--Using routing files function router(req, res, next) {
+    router.handle(req, res, next);
+  } --|
+|Sun, 26 Jul 2020 03:02:53 GMT|INFO|Server listening on port:3001|
+|Sun, 26 Jul 2020 03:15:45 GMT|INFO|--NEW INSTANCE OF NODE API APPLICATION STARTED--|
+|Sun, 26 Jul 2020 03:15:45 GMT|INFO|--Running on 12 cpu's--|
+|Sun, 26 Jul 2020 03:15:45 GMT|INFO|--Web server @ localhost:3001 --|
+|Sun, 26 Jul 2020 03:15:45 GMT|INFO|--Applying debug level 2|
+|Sun, 26 Jul 2020 03:15:45 GMT|INFO|--Using environment dev--|
+|Sun, 26 Jul 2020 03:15:45 GMT|INFO|--Refering to BFF Server @ localhost:1337 --|
+|Sun, 26 Jul 2020 03:15:45 GMT|INFO|--Using routing files function router(req, res, next) {
+    router.handle(req, res, next);
+  } --|
+|Sun, 26 Jul 2020 03:15:45 GMT|INFO|Server listening on port:3001|

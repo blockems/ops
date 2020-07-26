@@ -14,7 +14,7 @@ router.get('/', function (req, res) {
         userInfo.userType = req.session.userType;
         userInfo.userType = req.session.userName;
     }; 
-    res.render('index',{'userInfo':userInfo});
+    res.render('index',{'userInfo':userInfo, 'body': '<div>sommat</div>'});
 })
 
 // Delta section

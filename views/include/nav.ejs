@@ -11,26 +11,31 @@
         <% if (userInfo.me != 0) { %>
          <div class="collapse navbar-collapse" id="myNavbar">
             <ul class="nav navbar-nav">
-                <li><a href="/story/mytasks"><span class="glyphicon glyphicon-briefcase"></span> My Task</a></li>
-                <li><a class="dropdown-toggle" data-toggle="dropdown" href="#"><span class="glyphicon glyphicon-book"></span> Stories</a>
-                <ul class="dropdown-menu">
-                    <li><a href="/story/index">View</a></li>
-                    <li role="presentation" class="divider"></li>
-                    <li><a href="/story/new">Add New Story</a></li>
-                </ul>
-                </li>
-                <li><a href="/story/sprint" class="dropdown-toggle" data-toggle="dropdown" href="#"><span class="glyphicon glyphicon-wrench"></span> Sprints</a>
+                <li><a href="/personal/mytasks"><span class="glyphicon glyphicon-briefcase"></span> My To Do</a></li>
+                <li><a class="dropdown-toggle" data-toggle="dropdown" href="#"><span class="glyphicon glyphicon-link"></span> Delta Processing</a>
                     <ul class="dropdown-menu">
-                        <li><a href="/story/sprint">View</a></li>
+                        <li><a href="/delta/index">View</a></li>
                         <li role="presentation" class="divider"></li>
-                        <li><a href="/sprint">Manage</a></li>
+                        <li><a href="/delta/report">Execute</a></li>
                     </ul>
                 </li>
-                <li><a href="#" class="dropdown-toggle" data-toggle="dropdown" href="#"><span class="glyphicon glyphicon-certificate"></span> Quapi</a>
+                <li><a href="/sos/sprint" class="dropdown-toggle" data-toggle="dropdown" href="#"><span class="glyphicon glyphicon-wrench"></span> Scrum of Scrums</a>
                     <ul class="dropdown-menu">
-                        <li><a href="#">Blueprints</a></li>
+                        <li><a href="/sos/sprint">Agenda</a></li>
+                    </ul>
+                </li>
+                <li><a href="/bud/sprint" class="dropdown-toggle" data-toggle="dropdown" href="#"><span class="glyphicon glyphicon-wrench"></span> Burn Up Down</a>
+                    <ul class="dropdown-menu">
+                        <li><a href="/bud/sprint">View</a></li>
                         <li role="presentation" class="divider"></li>
-                        <li><a href="#">Projects</a></li>
+                        <li><a href="/bud/sprint">Manage</a></li>
+                    </ul>
+                </li>
+                <li><a href="#" class="dropdown-toggle" data-toggle="dropdown" href="#"><span class="glyphicon glyphicon-certificate"></span> Quality Check</a>
+                    <ul class="dropdown-menu">
+                        <li><a href="/qc/wi">Work Instructions</a></li>
+                        <li role="presentation" class="divider"></li>
+                        <li><a href="/qc/story">Stories</a></li>
                         <li role="presentation" class="divider"></li>
                         <li><a href="#">Schedule</a></li>
                     </ul>
