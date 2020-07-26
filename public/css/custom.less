@@ -1,0 +1,293 @@
+/**********************
+       CONSTANTS
+***********************/
+@white: #FFFFFF;
+@green: #9EC03B;
+@orange:#F48744;
+@blue:	#189ECA;
+@gray:	#777574;
+@black:	#1C1C1C;
+@red:	#D16565;
+@purple:#800080;
+@terracotta: #945D60;
+@herb:	#626E60;
+@chilli:#AF473C;
+@defaultShapesWidth:200px;
+@defaultRadius:30px;
+@RowMargin:2px;
+
+@media (min-width: 1200px) {
+  .table-responsive {
+        overflow-x: inherit !important;
+  }
+}
+
+/*******************************
+   OPERATIONS & COLOR FUNCTIONS
+**********************************/
+
+// Default color scheme 
+@defaultThemeColor:@blue;
+
+//Colors
+@darkBlue:	darken(@blue, 20%);
+@darkGreen: darken(@green, 20%);
+@darkRed:	darken(@red, 20%);
+@darkGray:	darken(@gray, 20%);
+
+@lightRed:	lighten(@red, 20%);
+@lightGray:	lighten(@gray, 50%);
+
+@midGray:	lighten(@gray, 30%);
+
+// Border control
+@borderSize:@defaultShapesWidth * 0.1;
+@borderColor:@defaultThemeColor - #222;
+ 
+//@borderColor:darken(desaturate(@defaultThemeColor, 100%), 20%); 
+ 
+ 
+/**********************
+        MIXINS
+***********************/
+ 
+.RoundedShape(@radius:@defaultRadius){
+    -webkit-border-radius:@radius;
+       -moz-border-radius:@radius;
+            border-radius:@radius;  
+}
+ 
+.Round{
+    .RoundedShape(9999px);
+}
+ 
+.RoundedSquare(@radius:@defaultRadius){
+    .RoundedShape(@radius);
+}
+
+.transition (@transition) {
+	-webkit-transition: @transition;  
+	-moz-transition:    @transition;
+	-ms-transition:     @transition; 
+	-o-transition:      @transition;  
+}
+.transform(@string){
+	-webkit-transform: @string;
+	-moz-transform: 	 @string;
+	-ms-transform: 		 @string;
+	-o-transform: 		 @string;
+}
+.scale (@factor) {
+	-webkit-transform: scale(@factor);
+	-moz-transform: 	 scale(@factor);
+	-ms-transform: 		 scale(@factor);
+	-o-transform: 		 scale(@factor);
+}
+.rotate (@deg) {
+	-webkit-transform: rotate(@deg);
+	-moz-transform: 	 rotate(@deg);
+	-ms-transform: 		 rotate(@deg);
+	-o-transform: 		 rotate(@deg);
+}
+.skew (@deg, @deg2) {
+	-webkit-transform:       skew(@deg, @deg2);
+	-moz-transform: 	 skew(@deg, @deg2);
+	-ms-transform: 		 skew(@deg, @deg2);
+	-o-transform: 		 skew(@deg, @deg2);
+}
+
+/**********************
+         STYLES
+***********************/
+ 
+.shape{
+    display:inline-block;
+    width:@defaultShapesWidth;
+    height:200px;
+    background:@defaultThemeColor;
+    margin:20px;
+    border:@borderSize solid @borderColor;
+}
+ 
+.shape{
+    &:hover{ background:@lightRed   }
+}
+ 
+#shape1{ .Round }
+#shape2{ .RoundedSquare }
+#shape3{ .RoundedSquare(60px) }
+
+
+body {
+	padding-top:60px;
+	padding-bottom:40px;
+}
+.aspen {
+	text-align:center;
+}
+
+.green {color:@green;}
+.darkGreen {color: @darkGreen}
+.blue {color: @blue}
+.darkBlue {color: @darkBlue}
+.red {color:@red}
+.darkRed {color:@darkRed}
+.purple {color: @purple}
+.gray {color:@gray}
+.lightGray {color:@lightGray}
+.darkGray {color:@darkGray}
+.midGray {color:@midGray}
+.terracotta{color:@terracotta}
+.chilli{color:@chilli}
+.herb{color:@herb}
+.orange{color:@orange}
+
+container {
+	.footer { width:25%;}
+}
+	
+.form-signin {
+	max-width:30%;
+	padding:19px 29px 29px;
+	margin:	0 auto 20px;
+	margin-top:	20px;
+	background-color: @lightGray;
+	border: 1px solid green;
+	-webkit-border-radius: 15px;
+	-moz-border-radius: 15px;
+	border-radius: 15px;
+	h2 {
+		text-align: center;
+		margin-top: 0px;
+	};
+	input[type="text"], input[type="password"] {
+		font-size: 16px;
+		height:auto;
+		margin-bottom: 15px;
+		padding: 7px 9px;
+	}
+}
+
+/***************************
+	Rotate Text
+***************************/
+
+.verticaltext {
+    transform: rotate(-90deg);
+    -ms-transform: rotate(-90deg);
+    -webkit-transform: rotate(-90deg);
+	
+    bottom: 45%;
+    position: absolute;
+}
+
+/*****************************
+	Margin addons for rows
+*****************************/
+.margin-xs {
+	margin-top: @RowMargin;
+	margin-bottom: @RowMargin;
+	}  
+.margin-sm {
+	margin-top: @RowMargin * 2;
+	margin-bottom: @RowMargin * 2;
+	} 
+.margin-md {
+	margin-top: @RowMargin * 4;
+	margin-bottom: @RowMargin * 4;
+	}
+.margin-lg {
+	margin-top: @RowMargin * 6;
+	margin-bottom: @RowMargin * 6;
+	}
+	
+/*****************************
+	Compact table customisations
+*****************************/
+
+.table-condensed > thead > tr > th,
+.table-condensed > tbody > tr > th,
+.table-condensed > tfoot > tr > th,
+.table-condensed > thead > tr > td,
+.table-condensed > tbody > tr > td,
+.table-condensed > tfoot > tr > td {
+  padding: 2px !important;
+  font-size: 8pt !important;
+  line-height: 1 !important;
+  letter-spacing: 0px;
+  //font-family: Helvetica Narrow !important;
+}
+
+.table-condensed > thead > tr > td > a,
+.table-condensed > thead > tr > th > a{
+line-height:1 !important;
+font-size:9pt !important;
+}
+.btn-xs {
+	font-size: 7pt !important;
+}
+
+/******************************
+ Sizing measures for the main table
+******************************/
+
+@natostandard: 200;
+
+th.nato, td.nato {
+	max-width:200px;
+}
+
+th.wideload, td.wideload {
+	max-width:300px;
+}
+
+th.slimshady, td.slimshady {
+	max-width:100px;
+}
+
+.displaynative {
+	white-space:pre;
+}
+
+
+
+/*****************************
+	table row dividers
+*****************************/
+hr.dividetop { 
+	height: 10px;
+	margin-top: 2px;
+	margin-bottom: 0px;
+	border-style: solid; 
+	border-color: #8c8b8b; 
+	border-width: 1px 0 0 0; 
+	border-radius: 10px;
+} 
+hr.dividebottom { 
+	height: 10px;
+	margin-top: -1px;
+	margin-bottom: 5px;
+	border-style: solid; 
+	border-color: #8c8b8b; 
+	border-width: 0px 0 1px 0; 
+	border-radius: 10px;
+}
+hr.dividemid { 
+	height: 10px;
+	margin-top:5px;
+	margin-bottom:1px;
+	border-style: solid; 
+	border-color: #8c8b8b; 
+	border-width: 1px 0 0 0; 
+	border-radius: 10px; 
+} 
+hr.dividemid:before { 
+  display: block; 
+  content: ""; 
+  height: 10px; 
+  margin-top: -11px; 
+  border-style: solid; 
+  border-color: #8c8b8b; 
+  border-width: 0 0 1px 0; 
+  border-radius: 10px; 
+}

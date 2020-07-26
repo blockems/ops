@@ -2,27 +2,28 @@
 const express = require('express');
 const router = express.Router();
 
-// Set up a logger
-// loging (winston) plus custom formats for CREn
-// Change formats in the logging class
-const Logger = require('../services/logger_service');
-const logger = new Logger('app');
-
-//Log all calls to this one
-router.use(function timeLog (req, res, next) {
-    const body=req.body;
-    // Add the request as log data
-
-    logger.setLogData(body);
-    logger.info("Recieved a request on ", req.body);
-  next()
-})
-// define the home page route
+// home page route
 router.get('/', function (req, res) {
-    res.send(ads);
+    var userInfo = {}; 
+    if (typeof req.session == 'undefined') {
+        userInfo.me = 1;
+        userInfo.userType = 'none';
+        userInfo.userName = 'Not Logged In'
+    }else{
+        userInfo.me = req.session.me;
+        userInfo.userType = req.session.userType;
+        userInfo.userType = req.session.userName;
+    }; 
+    res.render('index',{'userInfo':userInfo});
 })
+
+// Delta section
+router.post('/delta', function (req, res) {
+    res.render('index');
+})
+
 // define the about route
-router.post('/', function (req, res) {
+router.post('/about', function (req, res) {
     const body = req.body;
 
     let error = {};

@@ -8,7 +8,9 @@
             "type": "node",
             "request": "launch",
             "name": "Launch Program",
-            "program": "${workspaceFolder}\\src\\index.js"
+            "program": "${workspaceFolder}\\index.js",
+            "env":{"port":"3001", "debugLevel":"2", "environment":"dev" }
+            //"args": ["3001","1", "dev"]
         }
     ]
 }
